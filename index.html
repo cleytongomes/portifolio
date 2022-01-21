@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Cleyton Gomes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="logo2020.png" type="image/x-icon" />
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+@media only screen and (max-width: 600px) {
+  .year{
+    font-size: 3em;
+  }
+  .text-left{
+    text-align: center;
+  }
+  .text-right{
+    text-align: center;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right; 
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .year{
+    font-size: 3em;
+  }
+  .text-left{
+    text-align: left;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right; 
+  }
+}
+
+.lista-anos{
+  list-style-type: katakana;
+  font-size: 1.2em;
+}
+
+.lista-anos a{
+  outline: none;
+}
+
+.lista-anos li a:hover{
+  text-decoration: underline;
+}
+
+.lista-anos li a{
+  text-decoration: none;
+}
+
+.fotos div img{
+  -webkit-filter:grayscale(100%);
+  transition: 1s;
+}
+.fotos div img:hover{
+  -webkit-filter:grayscale(0%);
+  transition: 1s;
+}
+
+.lista-anos li:active{
+  color: white;
+  transition : 1s;
+}
+
+.lista-anos li:hover{
+  color: white;
+  transition : 1s;
+}
+
+.lista-anos li{
+  color: #757575;
+  transition : 1s;
+}
+
+</style>
+</head><body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav  style="direction: rtl; text-align:left;" class="scroll-bar w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="foto.png" style="width:100%; -webkit-filter:grayscale(100%);">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"><img src="casa.png"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"><img src="pessoa.png"></i>
+    <p>SOBRE</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"><img src="olho.png"></i>
+    <p>FOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"><img src="email.png"></i>
+    <p>CONTATO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">SOBRE</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">FOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTATOS</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 style="text-align: center; width: 100%;" class="w3-jumbo">Cleyton Gomes</h1>
+    <p style="font-size: 1.2em; text-align: center; margin-top: 10px; color: #757575">Programador e desenvolvedor de sistemas</p>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Cleyton Gomes</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="font-size: 1.2em; text-align: left;">
+    	Técnico em informática pelo Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (Cefet/RJ) campus Nova Friburgo e Graduando em Tecnologia em Sistemas de Computação pela Universidade Federal Fluminense (UFF).<br>
+      Atualmente desenvolvedor de sistemas na 3F - Fechaduras e Cadeados, onde sou responsável pelo desenvolvimento de sistemas voltados para as áreas administrativas e produtiva.<br>
+      Comecei a me interessar pela área tecnológica ainda pequeno, quando desmontava sucatas eletrônicas e construía algo novo com as peças obtidas. Nesse período, me interessava muito nas ciências exatas, o que me rendeu boas oportunidades.<br>
+      Ao chegar no ensino médio (2015), tive a oportunidade de ir para o CEFET-RJ Nova Friburgo cursar o técnico em informática integrado ao ensino médio, lá pude aprender muito sobre programação e robótica, e assim, consegui desenvolver melhor as minhas habilidades.<br>
+      Dando sequência a essa jornada, mudei-me para Niterói (2018), lá cursei Ciência da Computação na Universidade Federal Fluminense (UFF) por três períodos, quando voltei para região serrana recebendo uma proposta de emprego na 3F - Fechadura e Cadeados como Desenvolvedor de Sistemas.<br>
+      De forma a continuar minha formação superior, ingressei no curso de Sistemas de Computação e lá sigo minha jornada.
+    </p>
+    
+    
+    <h3 class="w3-text-light-grey">Cronologia</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <div>
+      <h3 class="text-left year">2012</h3>
+      <ul class="lista-anos text-left">
+        <li>Menção Honrosa OBMEP</li>
+        <li>Curso de Informática Básica pela Brasil Treinamentos</li>
+      </ul>
+
+      <h3 class="text-right year">2013</h3>
+      <ul class="lista-anos text-right">
+        <li>Menção Honrosa OBMEP</li>
+      </ul>
+
+      <h3 class="text-left year">2014</h3>
+      <ul class="lista-anos text-left">
+        <li>Menção Honrosa OBMEP</li>
+        <li>Programa de Iniciação Científica Junior</li>
+        <li>Programa Elos de Cidadania: Educação Ambiental para A Gestão Participativa e Integrada de Águas e Florestas da Mata Atlântica</li>
+        <li>Conclusão do Ensino Fundamental</li>
+      </ul>
+
+      <h3 class="text-right year">2015</h3>
+      <ul class="lista-anos text-right">
+        <li>Programa de Iniciação Científica Junior</li>
+        <li>Participação na semana nacional de ciência e tecnologia, Tema: Luz, ciência e vida</li>
+        <li>Colaborador no projeto de pesquisa sobre a literatura de Nova Friburgo</li>
+      </ul>
+
+      <h3 class="text-left year">2016</h3>
+      <ul class="lista-anos text-left">
+        <li>Menção Honrosa OBMEP</li>
+        <li>Participação na semana nacional de ciência e tecnologia, Tema: Ciência Alimentando o Brasil</li>
+        <li>Apresentador no Seminario na Sociedade da Informação (SESINF) P1, abordando o tema de automação residencial de baixo custo</li>
+        <li>Apresentador no Seminario na Sociedade da Informação (SESINF) P2, com o projeto GARDEN TECH: uma plantação tecnológica de baixo custo</li>
+        <li>Menção Honrosa na EXPOTEC CEFET-RJ campus sede, com o projeto GARDEN TECH: uma plantação tecnológica de baixo custo</li>
+        <li>1° Lugar na EXPOTEC CEFET-RJ campus Nova Friburgo, com o projeto GARDEN TECH: uma plantação tecnológica de baixo custo</li>
+        <li>Colaborador no projeto de pesquisa sobre Maturação de Frutos, com o professor Anderson Fertnandes de Souza</li>
+      </ul>
+
+      <h3 class="text-right year">2017</h3>
+      <ul class="lista-anos text-right">
+        <li>Menção Honrosa OBMEP</li>
+        <li>Estágio Interno no CEFET-RJ campus Nova Friburgo</li>
+        <li>Participação na semana nacional de ciência e tecnologia, Tema: A Matemática está em Tudo</li>
+        <li>Melhor Trabalho do Encontro Nacional de Computação dos Centros Federais (ENCOPINF) </li>
+        <li>Ministrante do curso de Introdução a plataforma ARDUINO, na semana do ensino médio</li>
+        <li>Ministrante do curso de Introdução a plataforma ARDUINO, na semana de extensão do CEFET-RJ</li>
+        <li>1° Lugar na EXPOTEC CEFET-RJ campus Nova Friburgo, com o projeto Portal dos Estagiários</li>
+        <li>Apresentação no Workshop de Computação dos Campos Gerais (WPCCG) com o trabalho Portal dos Estagiários</li>
+        <li>Conclusão do Ensino médio e técnico no CEFET-RJ campus Nova Friburgo</li>
+      </ul>
+
+      <h3 class="text-left year">2018</h3>
+      <ul class="lista-anos text-left">
+        <li>Participação no Hacking Rio (Estande de Turismo)</li>
+        <li>Apresentador na amostra de robótica da Escola Regional de Sistemas de Informação (ERSI)</li>
+        <li>Ministrante da oficina de introdução a robótica na semana de química da UFF, à convite do Instituto Militar de Engenharia (IME)</li>
+        <li>Ministrante do curso de Introdução ao JAVINO, na Escola Regional de Sistemas de Informação</li>
+        <li>Ministrante do curso de Introdução a plataforma ARDUINO, na semana de extensão do CEFET-RJ</li>
+        <li>Ingresso no Programa PET do curso de Telecomunicações da UFF</li>
+      </ul>
+
+      <h3 class="text-right year">2019</h3>
+      <ul class="lista-anos text-right">
+        <li>Patente Agitadora de baixo custo em parceria com o IPRJ (UERJ)</li>
+        <li>Ingresso na Equipe de drones autônomos UFFO</li>
+        <li>Projeto de porta com acesso RFID</li>
+        <li>Professor da matéria optativa de Arduino na UFF Niterói</li>
+        <li>Egresso no programa de Jovem aprendizes na empresa <a href="http://www.3f.com.br/">3F - FECHADURAS E CADEADOS</a></li>
+        <li>Efetivação como desenvolvedor de sistemas na empresa <a href="http://www.3f.com.br/">3F - FECHADURAS E CADEADOS</a></li>
+      </ul>
+
+      <h3 class="text-left year">2020</h3>
+      <ul class="lista-anos text-left">
+        <li>Sistema de monitoramento de Máquinas de Usinagem (Esp32 + MQTT + Telegram)</li>
+        <li>Controle de portaria integrado ao Protheus</li>
+        <li>Serviço de entrada e monitoramento de Currículos</li>
+        <li>Totem de atendimento para emissão de contracheques (Protheus + Web + Python)</li>
+        <li>Controle de login Utilizando Reconhecimento Facial em ambiente local (Python)</li>
+        <li>Controle e Monitoramento de produção da fundição, pintura e galvanoplastia (Protheus + Web)</li>
+      </ul>
+
+      <h3 class="text-right year">2021</h3>
+      <ul class="lista-anos text-right">
+        <li>Sistema de monitoramento de Máquinas da Fundição (Esp32 + MQTT + Telegram)</li>
+        <li>Desenvolvimento de Balanças para contagem de Peças (Arduino + HX711 + Impressão 3D)</li>
+        <li>Controle de Produção da Alpes</li>
+        <li>Paineis de Monitoramento de Produção em tempo real (WEB e Telegram)</li>
+        <li>Atualização no Controle e Monitoramento de produção nos centros de trabalho</li>
+        <li>Skill Alexa 'Segundo Jogador' (PT e EN)</li>
+      </ul>
+
+    </div>  <br>
+
+    <h3 class="w3-text-light-grey">Minhas Skills</h3>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-wide">Programação</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:78%"></div>
+    </div>
+    <p class="w3-wide">ERP Protheus</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:48%"></div>
+    </div>
+    <p class="w3-wide">Microcontroladores</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Alexa Skills</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Eletrônica</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:67%"></div>
+    </div>
+    <p class="w3-wide">Automação</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">Power Bi</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">React Native</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Didática / Pedagogia</p>
+    <div class="w3-dark-grey">
+      <div class="w3-white" style="height:28px;width:83%"></div>
+    </div>
+    <br><br>
+    
+    <div class="w3-padding-large" style="text-align: center;">
+      <a style="width: 200px;" href="curriculo.pdf" download>
+        <button style="width: 200px; margin: 10px;" class="w3-button w3-light-grey w3-padding-large w3-section">
+          Baixar Currículo
+        </button>
+      </a>
+
+      <a href="https://drive.google.com/open?id=1mUVaxvu99r8wnrEJO-9TqQPwDvsreqVX" target="_blank">
+        <button style="width: 200px; margin: 10px;" class="w3-button w3-light-grey w3-padding-large w3-section">
+          Certificados
+        </button>
+      </a>
+
+    </div><br><br>
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-50 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">Meus Projetos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+
+    <div class="fotos w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="projetos/gtech2.jpeg" style="width:100%">
+        <img src="projetos/robot2.jpeg" style="width:100%">
+        <img src="projetos/gtech.jpg" style="width:100%">
+        <img src="projetos/balanca.png" style="width:100%">
+        <!-- <img src="projetos/conservador.jpg" style="width:100%"> -->
+      </div>
+
+      <div class="w3-half">
+        <!-- <img src="projetos/agitadora.jpg" style="width:100%"> -->
+        <!-- <img src="projetos/caixa_fruto.jpg" style="width:100%"> -->
+        <img src="projetos/portal.png" style="width:100%">
+        <img src="projetos/robot1.jpg" style="width:100%">
+        <img src="projetos/atena.png" style="width:100%">
+        <img src="projetos/sistema_monitoramento.png" style="width:100%">
+        <img src="projetos/segundo_jogador.png" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contatos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-fw w3-text-white w3-xxlarge w3-margin-right"><img src="marcador.png"></i> Nova Friburgo, Br</p>
+      <p><a href="https://api.whatsapp.com/send/?phone=5522988151345" ><i class="fa fa-fw w3-text-white w3-xxlarge w3-margin-right"><img src="telefone.png"></i></a> Telefone: (22) 98815-1345 </p>
+      <p><a href="mailto:cleytongomesx@gmail.com" ><i class="fa fa-fw w3-text-white w3-xxlarge w3-margin-right"><img src="mail.png"></i></a> Email: cleytongomesx@gmail.com</p>
+    </div><br>
+    <p>Envie-me uma mensagem:</p>
+
+    <form action="action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome" required="" name="Nome"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required="" name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Assunto" required="" name="Assunto"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensagem" required="" name="Mensagem"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          ENVIAR
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a target="_blank" href="https://www.facebook.com/cleyton.gomes.359"><i class="fa w3-hover-opacity"><img src="facebook.png"></i></a>
+    <a target="_blank" href="https://www.instagram.com/cleyton_gomesx/"><i class="fa w3-hover-opacity"><img src="instagram.png"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/cleyton-cunha-gomes-32b793139/"><i class="fa w3-hover-opacity"><img src="linkedin.png"></i></a>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+
+</body></html>
